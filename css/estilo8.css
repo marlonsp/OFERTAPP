@@ -1,0 +1,39 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: #b3ffb3;
+}
+main{
+    margin: 2rem;
+    font-family: 'EB Garamond', serif;
+}
+
+/* ELEMENTOS DO HEADER*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid black .1rem;
+    background-color: #FA5A80;
+    font-family: 'Poppins', sans-serif;
+}
+#logo{
+    position: absolute;
+    padding: .43rem;
+    top:0;
+    right:0;
+    width:35px;
+    height:35px;
+}
+#return{
+    position: absolute;
+    padding: .43rem;
+    top:0;
+    left:0;
+    width:35px;
+    height:35px;
+}
+h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+}

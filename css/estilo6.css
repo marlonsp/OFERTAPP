@@ -1,0 +1,110 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color: #b3ffb3;
+}
+header{
+    background-color: #FFFFFF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: .5rem 2rem 1rem 2rem;
+    justify-content: space-between;
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: .1rem solid black;
+}
+.span{
+    border: none;
+    border-bottom: .1rem dotted black;
+    height: .5rem;
+    width: 50%;
+    margin: .4rem;
+}
+.botao{
+    display: flex;
+    padding: .2rem;
+    margin: .3rem;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    width: 70%;
+    background-color: #cccccc;
+    font-family: 'EB Garamond', serif;
+    border-radius: .8rem;
+}
+li{
+    font-family: 'Poppins', sans-serif;
+}
+.produto li{
+    font-size: 1.2rem;
+}
+p{
+    font-family: 'EB Garamond', serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid black .1rem;
+    background-color: #FA5A80;
+    font-family: 'Poppins', sans-serif;
+}
+#logo{
+    position: absolute;
+    padding: .43rem;
+    top:0;
+    right: 0;
+    width:35px;
+    height:35px;
+}
+#return{
+    position: absolute;
+    padding: .43rem;
+    top:0;
+    left: 0;
+    width:35px;
+    height:35px;
+}
+h1{
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: .6rem 0;
+    border-bottom: .1rem solid black;
+    align-items: center;
+}
+.topico{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.produto{
+    align-self: center;
+}
+.linha1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+.linha3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+}
+.raster{
+    width:30px;
+    height:30px;
+}
