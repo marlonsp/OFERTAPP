@@ -60,7 +60,14 @@ p{
 .preco p{
     font-family: 'Poppins', sans-serif;
 }
-
+.preco{
+    display: flex;
+    justify-content: end;
+}
+.rua{
+    display: flex;
+    justify-content: end;
+}
 nav{
     justify-content: center;
     display: flex;

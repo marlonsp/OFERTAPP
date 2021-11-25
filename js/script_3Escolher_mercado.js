@@ -1,11 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     
-    value = localStorage.getItem('texto')
-    value2 = localStorage.getItem('text')
+    value = localStorage.getItem('texto1')
+    value2 = localStorage.getItem('texto2')
+    value3 = localStorage.getItem('texto3')
+    value4 = localStorage.getItem('texto4')
     span = document.querySelector('span')
     estrel = document.querySelector('.linha li')
+    dist = document.querySelectorAll('p')
     span.innerHTML = value
     estrel.innerHTML = value2
+    dist[0].innerHTML = value3
+    dist[1].innerHTML = value4
     
     botao = document.querySelectorAll("button")
     botao[0].addEventListener("click", function(event) {
