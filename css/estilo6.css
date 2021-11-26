@@ -9,7 +9,7 @@ header{
 main{
     display: flex;
     flex-direction: column;
-    height: 80%;
+    height: 82%;
     margin: .5rem 2rem 1rem 2rem;
     justify-content: space-between;
 }
@@ -29,7 +29,7 @@ main{
 .botao{
     display: flex;
     padding: .2rem;
-    margin: .3rem;
+    margin: .5rem 0;
     align-items: center;
     justify-content: space-around;
     font-size: 1rem;
@@ -107,4 +107,7 @@ h1{
 .raster{
     width:30px;
     height:30px;
+}
+ul{
+    margin-top: .5rem;
 }

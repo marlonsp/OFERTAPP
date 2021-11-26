@@ -93,3 +93,12 @@ li{
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
 }
+.janela{
+    display: none;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    width: 15rem;
+    top: 45%;
+    left: 50%;
+    margin-left: -7rem;
+}

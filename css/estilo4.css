@@ -63,6 +63,7 @@ p{
 .preco{
     display: flex;
     justify-content: end;
+    font-size: 1.3rem;
 }
 .rua{
     display: flex;
