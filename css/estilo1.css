@@ -23,7 +23,7 @@ ul{
 .botao{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     font-size: 1.2rem;
     padding: 1rem;
     width: 70%;
@@ -48,8 +48,5 @@ h1{
 img{
     width:30px;
     height:30px;
-}
-p{
-    width: 80%;
-    text-align: left;
+    padding-right: .6rem;
 }
